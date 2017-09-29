@@ -1,24 +1,23 @@
-# Dependencies
-markdown:         redcarpet
-pygments:         true
-
 # Permalinks
-permalink:        pretty
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+#permalink:           pretty
 
 # Setup
-title:            Lanyon
-tagline:          'A Jekyll theme'
-description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://lanyon.getpoole.com
+title:               Makers Making Change
+tagline:             'blog'
+description:         'Latest blog updates about <a href="http://www.makersmakingchange.com/" target="_blank">Makers Making Change</a> projects.'
+url:                 http://www.makersmakingchange.com/
+baseurl:             ''
+paginate:            5
 
+# About/contact
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
-
-paginate:         5
+  name:              
+  url:               http://www.makersmakingchange.com/
+  email:             info@makersmakingchange.com
 
 # Custom vars
-version:          1.0.0
+version:             1.0.0
 
-github:
-  repo:           https://github.com/poole/lanyon
+theme: jekyll-theme-minimal
