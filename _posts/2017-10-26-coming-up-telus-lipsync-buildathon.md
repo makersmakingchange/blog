@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Coming Up: TELUS LipSync Buildathon
+title: Coming Up — TELUS LipSync Buildathon
 
 ---
 
